@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rebrand</title>
+    <style>
+        body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: yellow; /* Updated to yellow theme */
+    color: black; /* Ensure text is readable against yellow background */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+
+
+.header {
+    width: 100%;
+    background-color: black;
+    color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header nav a {
+    color: yellow;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.header nav a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background: yellow;
+}
+
+.branding {
+    max-width: 50%;
+}
+
+.branding h2 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.branding p {
+    font-size: 1.2em;
+}
+
+.branding button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.branding button:hover {
+    background-color: grey;
+}
+
+.ide-screenshot img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid black;
+    transition: transform 0.5s, box-shadow 0.5s; /* Add transitions for smooth animation */
+}
+
+.ide-screenshot img:hover {
+    transform: scale(1.1); /* Scale the image on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add shadow effect on hover */
+}
+
+.footer {
+    width: 100%;
+    background-color: black;
+    color: yellow;
+    text-align: center;
+    padding: 10px 0;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Rebrand</h1>
+            <nav>
+                <a href="#home">Home</a>
+                
+            </nav>
+        </header>
+        <main class="main-content">
+            <div class="branding">
+                <h2>Experience the best scripting after Byfron</h2>
+                <p>Our power cannot be compared to any other IDE on the market right now. Choose us, choose the best.</p>
+          <a href="https://gofile.io/d/IsIO3j"><button>Download</button></a>      
+            </div>
+            <div class="ide-screenshot">
+                <img src="ide.png" alt="IDE Screenshot">
+            </div>
+        </main>
+        <footer class="footer">
+            <p>&copy; 2024 Rebrand. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
